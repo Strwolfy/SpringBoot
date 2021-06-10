@@ -20,10 +20,4 @@ public class LoginController {
         return "ListModalUsers";
     }
 
-    // add request mapping for /access-denied
-    @GetMapping("/access-denied")
-    public String showAccessDenied() {
-
-        return "access";
-    }
 }
